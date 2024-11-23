@@ -1,5 +1,10 @@
 :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e, .container_d1c246 {
     .form_a7d72e {
+        .buttons_bdf0de {
+            button[aria-label="Send a gift"] {
+                display: none;
+            }
+        }
         .optionPill_d4df8b {
             background-color: var(--primary-730);
         }
