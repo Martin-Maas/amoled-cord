@@ -488,6 +488,9 @@
   background-color: var(--background-primary);
 }
 
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .form_a7d72e .buttons_bdf0de button[aria-label="Send a gift"], .container_d1c246 .form_a7d72e .buttons_bdf0de button[aria-label="Send a gift"] {
+  display: none;
+}
 :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .form_a7d72e .optionPill_d4df8b, .container_d1c246 .form_a7d72e .optionPill_d4df8b {
   background-color: var(--primary-730);
 }
@@ -1029,6 +1032,15 @@
   border-radius: 35%;
   background-color: var(--background-secondary-alt);
   background-image: none;
+}
+:is(.theme-dark, .theme-midnight) #app-mount .drawerSizingWrapper_af5dbb .emojiPicker_c6ee36 .categorySectionNitroDivider_a3bc57 .nitroTopDividerContainer_e8f337 {
+  display: none;
+}
+:is(.theme-dark, .theme-midnight) #app-mount .drawerSizingWrapper_af5dbb .emojiPicker_c6ee36 .categorySectionNitroLocked_a3bc57 {
+  display: none;
+}
+:is(.theme-dark, .theme-midnight) #app-mount .drawerSizingWrapper_af5dbb .emojiPicker_c6ee36 .upsellContainer_ad7baa {
+  display: none;
 }
 
 :is(.theme-dark, .theme-midnight) #app-mount .container_ac201b {
